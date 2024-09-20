@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --preto: #0a0908ff;
+    --escuro: #22333bff;
+    --creme: #eae0d5ff;
+    --avelã: #c6ac8fff;
+    --marrom: #5e503fff;
+    --fonte-titulo: "Jacques Francois Shadow", serif;
+    --fonte-texto: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: var(--avelã);
+    font-family: var(--fonte-texto);
+    color: var(--preto);
+    height: 100vh;
+}
+
+header{
+ 
+    background-color: var(--escuro);
+    text-align: center;
+
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    color: var(--marrom);
+    padding: 1.5rem 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 2rem;
+    margin: 0 2rem 1rem 0;;
+}
