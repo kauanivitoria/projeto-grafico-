@@ -46,5 +46,22 @@ nav a{
     text-decoration: none;
     color: var(--preto);
     font-size: 2rem;
-    margin: 0 2rem 1rem 0;;
+    margin: 0 2rem 1rem 0;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: var(--marrom);
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--escuro);
+    color: var(--avelã);
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1.8rem;
 }
